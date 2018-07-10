@@ -1,0 +1,12 @@
+{
+  "name": "12-auto-xml-server",
+  "version": "1.0.0",
+  "description": "Automatic File & Data Management",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Edmundo Rubio",
+  "license": "ISC"
+}
