@@ -44,7 +44,7 @@ const theFun1 = () => {
                     if (err) throw err;
                     console.log('File was deleted \n ==============================');
                 })
-            });
+            })
 
             
 
@@ -67,7 +67,7 @@ setInterval(() => { theFun1() }, 4000)
 // app.listen((process.env.PORT || 3000), (err) => {
     app.listen((process.env.PORT || 5000), (err) => {
         if(err){ throw err }
-    console.log("Server LOP: 5000 .....")
+    console.log("Server LOP: 5000 .....\n")
 })
 
 
