@@ -29,7 +29,7 @@ const theFun1 = () => {
         if(err){ 
             console.log("Error 1: ", err) 
         }else if(files.length > 0){
-            console.log(`=================== \n Check: ${myCount} - For Files.`)
+            console.log(` ============================== \n Check: ${myCount} - For Files.`)
             console.log(files)
             console.log("Next file to Process: ", files[files.length -1])
 
@@ -59,7 +59,7 @@ const theFun1 = () => {
 }
 
 
-setInterval(() => { theFun1() }, 4000)
+setInterval(() => { theFun1() }, 2000)
 
 
 
