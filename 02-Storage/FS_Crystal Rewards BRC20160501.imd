@@ -1,0 +1,1550 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <OTA_HotelStayInfoNotifRQ Version="16.61" TimeStamp="2016-05-03T09:37:53-06:00" xmlns="http://www.opentravel.org/OTA/2003/05" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SequenceNmbr="786540937" TransactionIdentifier="2016-05-01">
+  <StayInfos HotelName="Crystal Inn Hotel &amp; Suites - BRC">
+   <StayInfo SequenceNumber="1">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="474"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="55.68"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="474"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="474"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="170554" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="CORP" SourceOfBusiness="DIRB">
+       <RoomTypes>
+        <RoomType RoomTypeCode="K" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="2"/>
+       </GuestCounts>
+       <TimeSpan Start="2016-04-25" End="2016-05-01" Duration="P6N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="12:12:40" DepartureTime="11:54:28">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="52424" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Jesse</GivenName>
+           <Surname>Green</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="989-418-8734" PhoneUseType="5"/>
+           <Address UseType="2">
+           <CityName>Laramie</CityName>
+           <PostalCode>82070</PostalCode>
+           <StateProv>WY</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="Corporate Lodging" CodeContext="FEDID" Department="Hotel #44158"/>
+           <AddressInfo>
+           <AddressLine>8111 East 32nd St. North</AddressLine>
+           <CityName>Wichita</CityName>
+           <PostalCode>67226-2614</PostalCode>
+           <StateProv>KS</StateProv>
+           </AddressInfo>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra1>Osmose Truck</Extra1>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="2">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="156"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="18.34"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="156"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="156"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="170630" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GDS" SourceOfBusiness="1">
+       <RoomTypes>
+        <RoomType RoomTypeCode="KT" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="NOW"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="2"/>
+       </GuestCounts>
+       <TimeSpan Start="2016-04-29" End="2016-05-01" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="16:50:02" DepartureTime="09:15:07">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="52478" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>John</GivenName>
+           <Surname>Holloway</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="801-638-0020" PhoneUseType="6"/>
+           <Email EmailType="1">140228@comcast.net</Email>
+           <Address UseType="2">
+           <AddressLine>1963 East Shepard</AddressLine>
+           <CityName>Lake Point</CityName>
+           <PostalCode>84074</PostalCode>
+           <StateProv>UT</StateProv>
+           </Address>
+          </Customer>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra1>.</Extra1>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="3">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="130.97"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="15.39"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="130.97"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="130.97"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="170645" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="WHOL" SourceOfBusiness="WHOL">
+       <RoomTypes>
+        <RoomType RoomTypeCode="KU" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="EXPS"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="2"/>
+       </GuestCounts>
+       <TimeSpan Start="2016-04-29" End="2016-05-01" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="19:16:57" DepartureTime="10:39:18">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="52367" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Erica</GivenName>
+           <Surname>Ludwig</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="435-7290247" PhoneUseType="6"/>
+           <Address UseType="2">
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="Expedia" CodeContext="FEDID" Department="Vendor 52926"/>
+           <AddressInfo>
+           <AddressLine>10440 North Central Expressway</AddressLine>
+           <AddressLine>Suite 800</AddressLine>
+           <CityName>Dallas</CityName>
+           <PostalCode>75231</PostalCode>
+           <StateProv>TX</StateProv>
+           <CountryName>USA</CountryName>
+           </AddressInfo>
+          <Email>domesticbilling@hotels.com</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra1>.</Extra1>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="4">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="140"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="16.45"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="140"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="140"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="170642" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="WHOL" SourceOfBusiness="WHOL">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="IH19"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="2"/>
+       </GuestCounts>
+       <TimeSpan Start="2016-04-29" End="2016-05-01" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="18:44:28" DepartureTime="11:45:17">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="50645" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Joseph</GivenName>
+           <Surname>Ouderkirk</Surname>
+           </PersonName>
+           <Address UseType="2">
+           </Address>
+          </Customer>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra1>.</Extra1>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="5">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="168"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="19.74"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="168"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="168"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="170655" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="LEIS" SourceOfBusiness="DIRB">
+       <RoomTypes>
+        <RoomType RoomTypeCode="K" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="2"/>
+       </GuestCounts>
+       <TimeSpan Start="2016-04-29" End="2016-05-01" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="21:03:46" DepartureTime="10:24:45">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="52407" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Brandon</GivenName>
+           <Surname>Pace</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="801-735-9191" PhoneUseType="5"/>
+           <Email EmailType="1">brandon.p@gmail.com</Email>
+           <Address UseType="2">
+           </Address>
+          </Customer>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra1>.</Extra1>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="6">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="158.4"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="30.37"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="6">
+      <SummaryAmount Amount="100"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="258.4"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="158.4"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="170648" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="WHOL" SourceOfBusiness="WHOL">
+       <RoomTypes>
+        <RoomType RoomTypeCode="KU" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="ETP1"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="2"/>
+       </GuestCounts>
+       <TimeSpan Start="2016-04-29" End="2016-05-01" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="19:44:20" DepartureTime="10:11:17">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="52480" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Rochelle</GivenName>
+           <Surname>Wells</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="702-9087508" PhoneUseType="6"/>
+           <Address UseType="2">
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="Expedia" CodeContext="FEDID" Department="Vendor 52926"/>
+           <AddressInfo>
+           <AddressLine>10440 North Central Expressway</AddressLine>
+           <AddressLine>Suite 800</AddressLine>
+           <CityName>Dallas</CityName>
+           <PostalCode>75231</PostalCode>
+           <StateProv>TX</StateProv>
+           <CountryName>USA</CountryName>
+           </AddressInfo>
+          <Email>domesticbilling@hotels.com</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra1>.</Extra1>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="7">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="25"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="5.88"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="6">
+      <SummaryAmount Amount="25"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="50"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="25"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="170669" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="LEIS" SourceOfBusiness="HOME">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="SPC"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="2"/>
+        <GuestCount AgeQualifyingCode="8" Count="2"/>
+       </GuestCounts>
+       <TimeSpan Start="2016-04-30" End="2016-05-01" Duration="P1N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="16:46:00" DepartureTime="11:52:02">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="49848" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Jadyn</GivenName>
+           <Surname>Bailey</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="435-216-6501" PhoneUseType="5"/>
+           <Email EmailType="1">jkjady@yahoo.com</Email>
+           <Address UseType="2">
+           <CityName>Saint George</CityName>
+           <PostalCode>84047</PostalCode>
+           <StateProv>UT</StateProv>
+           <CountryName>United States</CountryName>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName=" Associate Discount Program" CodeContext="FEDID"/>
+           <AddressInfo>
+           </AddressInfo>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra1>.</Extra1>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="8">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="78"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="9.17"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="78"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="78"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="170664" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="LEIS" SourceOfBusiness="DIRB">
+       <RoomTypes>
+        <RoomType RoomTypeCode="K" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="NOW"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="2"/>
+       </GuestCounts>
+       <TimeSpan Start="2016-04-30" End="2016-05-01" Duration="P1N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="14:04:51" DepartureTime="11:54:14">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="49786" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Larry</GivenName>
+           <Surname>Beardall</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="435-851-1654" PhoneUseType="5"/>
+           <Email EmailType="1">beaca2@cut.net</Email>
+           <Address UseType="2">
+           <CityName>Salt Lake City</CityName>
+           <PostalCode>84646</PostalCode>
+           <StateProv>UT</StateProv>
+           </Address>
+          </Customer>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra1>.</Extra1>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="9">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="94"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="11.05"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="94"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="94"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="170678" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GDS" SourceOfBusiness="1">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="NET"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="2"/>
+       </GuestCounts>
+       <TimeSpan Start="2016-04-30" End="2016-05-01" Duration="P1N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="20:52:15" DepartureTime="08:36:28">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="52415" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>David</GivenName>
+           <Surname>Brown</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="505-989-8635" PhoneUseType="6"/>
+           <Email EmailType="1">drbswent@mac.com</Email>
+           <Address UseType="2">
+           <AddressLine>88 Ravens Ridge Road</AddressLine>
+           <CityName>Santa Fe</CityName>
+           <PostalCode>87505</PostalCode>
+           <StateProv>NM</StateProv>
+           </Address>
+          </Customer>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra1>.</Extra1>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="10">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="89"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="10.46"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="89"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="89"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="170683" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="LEIS" SourceOfBusiness="DIRB">
+       <RoomTypes>
+        <RoomType RoomTypeCode="KU" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="2"/>
+       </GuestCounts>
+       <TimeSpan Start="2016-04-30" End="2016-05-01" Duration="P1N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="23:12:58" DepartureTime="10:25:34">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="52540" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Ronald</GivenName>
+           <Surname>Chandler</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="541-264-9247" PhoneUseType="5"/>
+           <Address UseType="2">
+           </Address>
+          </Customer>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra1>Silver</Extra1>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="11">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="83"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="12.69"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="6">
+      <SummaryAmount Amount="25"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="108"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="83"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="170668" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="LEIS" SourceOfBusiness="WALK">
+       <RoomTypes>
+        <RoomType RoomTypeCode="KHR" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="NET"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="2"/>
+       </GuestCounts>
+       <TimeSpan Start="2016-04-30" End="2016-05-01" Duration="P1N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="16:33:25" DepartureTime="08:36:18">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="52534" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>James L</GivenName>
+           <Surname>Egging</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="503-860-4478" PhoneUseType="5"/>
+           <Address UseType="2">
+           </Address>
+          </Customer>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra1>.</Extra1>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="12">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="63.76"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="7.49"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="63.76"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="63.76"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="170677" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="WHOL" SourceOfBusiness="WHOL">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="EXPS"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="2"/>
+       </GuestCounts>
+       <TimeSpan Start="2016-04-30" End="2016-05-01" Duration="P1N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="20:49:04" DepartureTime="11:14:41">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="52539" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Patrice</GivenName>
+           <Surname>Fuller</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="312-209-2054" PhoneUseType="6"/>
+           <Address UseType="2">
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="Expedia" CodeContext="FEDID" Department="Vendor 52926"/>
+           <AddressInfo>
+           <AddressLine>10440 North Central Expressway</AddressLine>
+           <AddressLine>Suite 800</AddressLine>
+           <CityName>Dallas</CityName>
+           <PostalCode>75231</PostalCode>
+           <StateProv>TX</StateProv>
+           <CountryName>USA</CountryName>
+           </AddressInfo>
+          <Email>domesticbilling@hotels.com</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra1>.</Extra1>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="13">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="85"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="9.99"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="85"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="85"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="170666" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="LEIS" SourceOfBusiness="DIRB">
+       <RoomTypes>
+        <RoomType RoomTypeCode="KU" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="2"/>
+       </GuestCounts>
+       <TimeSpan Start="2016-04-30" End="2016-05-01" Duration="P1N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="14:38:01" DepartureTime="10:26:07">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="44767" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Brent</GivenName>
+           <Surname>Gardner</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="801-825-7982" PhoneUseType="5"/>
+           <Email EmailType="1">gardfam@q.com</Email>
+           <Address UseType="2">
+           <CityName>Syracuse</CityName>
+           <PostalCode>84075</PostalCode>
+           <StateProv>UT</StateProv>
+           </Address>
+          </Customer>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra1>C</Extra1>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="14">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="89"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="10.46"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="89"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="89"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="170684" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="LEIS" SourceOfBusiness="DIRB">
+       <RoomTypes>
+        <RoomType RoomTypeCode="KH" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="NET"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2016-04-30" End="2016-05-01" Duration="P1N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="00:42:13" DepartureTime="11:53:47">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="52549" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Megan</GivenName>
+           <Surname>Graham</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="208-677-3120" PhoneUseType="5"/>
+           <Address UseType="2">
+           <CityName>Burley</CityName>
+           <PostalCode>83318</PostalCode>
+           <StateProv>ID</StateProv>
+           </Address>
+          </Customer>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra1>Black</Extra1>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="15">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="64.68"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="7.6"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="64.68"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="64.68"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="170675" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="WHOL" SourceOfBusiness="WHOL">
+       <RoomTypes>
+        <RoomType RoomTypeCode="K" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="EXPS"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2016-04-30" End="2016-05-01" Duration="P1N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="20:01:17" DepartureTime="09:12:42">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="52519" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Gary P</GivenName>
+           <Surname>Harmon</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="970-2161922" PhoneUseType="6"/>
+           <Address UseType="2">
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="Expedia" CodeContext="FEDID" Department="Vendor 52926"/>
+           <AddressInfo>
+           <AddressLine>10440 North Central Expressway</AddressLine>
+           <AddressLine>Suite 800</AddressLine>
+           <CityName>Dallas</CityName>
+           <PostalCode>75231</PostalCode>
+           <StateProv>TX</StateProv>
+           <CountryName>USA</CountryName>
+           </AddressInfo>
+          <Email>domesticbilling@hotels.com</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra1>.</Extra1>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="16">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="85"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="9.99"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="85"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="85"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="170682" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="LEIS" SourceOfBusiness="WALK">
+       <RoomTypes>
+        <RoomType RoomTypeCode="K" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="2"/>
+       </GuestCounts>
+       <TimeSpan Start="2016-04-30" End="2016-05-01" Duration="P1N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="22:22:54" DepartureTime="11:54:17">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="52542" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Robert</GivenName>
+           <Surname>Lin</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="435-265-8305" PhoneUseType="5"/>
+           <Address UseType="2">
+           </Address>
+          </Customer>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra1>.</Extra1>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="17">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="72"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="8.46"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="72"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="72"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="170671" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="LEIS" SourceOfBusiness="WALK">
+       <RoomTypes>
+        <RoomType RoomTypeCode="K" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="STAT"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="2"/>
+       </GuestCounts>
+       <TimeSpan Start="2016-04-30" End="2016-05-01" Duration="P1N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="17:05:36" DepartureTime="09:25:03">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="52536" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Mijikai</GivenName>
+           <Surname>Mason</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="251-214-1860" PhoneUseType="5"/>
+           <Address UseType="2">
+           </Address>
+          </Customer>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra1>.</Extra1>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="18">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="89"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="10.46"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="89"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="89"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="170680" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="LEIS" SourceOfBusiness="WALK">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="2"/>
+       </GuestCounts>
+       <TimeSpan Start="2016-04-30" End="2016-05-01" Duration="P1N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="21:30:32" DepartureTime="11:15:03">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="52541" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Jay</GivenName>
+           <Surname>Peterson</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="208-881-8843" PhoneUseType="5"/>
+           <Address UseType="2">
+           </Address>
+          </Customer>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra1>.</Extra1>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="19">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="87"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="10.22"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="87"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="87"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="170670" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="LEIS" SourceOfBusiness="WALK">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="NET"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="2"/>
+       </GuestCounts>
+       <TimeSpan Start="2016-04-30" End="2016-05-01" Duration="P1N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="16:49:51" DepartureTime="08:33:50">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="52535" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Janine</GivenName>
+           <Surname>Richardson</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="734-679-6177" PhoneUseType="5"/>
+           <Address UseType="2">
+           </Address>
+          </Customer>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra1>.</Extra1>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="20">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="57.6"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="6.77"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="57.6"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="57.6"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="170676" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="WHOL" SourceOfBusiness="WHOL">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="EXPS"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="2"/>
+       </GuestCounts>
+       <TimeSpan Start="2016-04-30" End="2016-05-01" Duration="P1N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="20:02:55" DepartureTime="08:36:35">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="52538" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Lorraine</GivenName>
+           <Surname>Ridgeway</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="613-884-8047" PhoneUseType="6"/>
+           <Address UseType="2">
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="Expedia" CodeContext="FEDID" Department="Vendor 52926"/>
+           <AddressInfo>
+           <AddressLine>10440 North Central Expressway</AddressLine>
+           <AddressLine>Suite 800</AddressLine>
+           <CityName>Dallas</CityName>
+           <PostalCode>75231</PostalCode>
+           <StateProv>TX</StateProv>
+           <CountryName>USA</CountryName>
+           </AddressInfo>
+          <Email>domesticbilling@hotels.com</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra1>.</Extra1>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="21">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="84"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="9.87"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="84"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="84"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="170673" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="WHOL" SourceOfBusiness="WHOL">
+       <RoomTypes>
+        <RoomType RoomTypeCode="K" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="IH01"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="2"/>
+       </GuestCounts>
+       <TimeSpan Start="2016-04-30" End="2016-05-01" Duration="P1N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="19:39:45" DepartureTime="08:42:19">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="52533" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Brandon</GivenName>
+           <Surname>Singkofer</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="402-984-3357" PhoneUseType="6"/>
+           <Email EmailType="1">bsingk.778234@guest.booking.com</Email>
+           <Address UseType="2">
+           <AddressLine>305 W C St</AddressLine>
+           <CityName>Hastings</CityName>
+           <PostalCode>68901</PostalCode>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="Booking.Com" CodeContext="FEDID"/>
+           <AddressInfo>
+           </AddressInfo>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra1>.</Extra1>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="22">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="87"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="10.22"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="87"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="87"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="170679" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GDS" SourceOfBusiness="1">
+       <RoomTypes>
+        <RoomType RoomTypeCode="KU" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="NET"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="2"/>
+       </GuestCounts>
+       <TimeSpan Start="2016-04-30" End="2016-05-01" Duration="P1N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="21:21:49" DepartureTime="11:14:48">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="52527" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Jason</GivenName>
+           <Surname>Thompson</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="801-209-9530" PhoneUseType="6"/>
+           <Email EmailType="1">jasonyjessica@msn.com</Email>
+           <Address UseType="2">
+           <AddressLine>1947 Black Angus Dr</AddressLine>
+           <CityName>Salt Lake City</CityName>
+           <PostalCode>84116</PostalCode>
+           <StateProv>UT</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="Mobile Discount" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>Crystalinns.Com</AddressLine>
+           </AddressInfo>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra1>.</Extra1>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="23">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="84"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="9.87"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="84"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="84"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="170672" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="WHOL" SourceOfBusiness="WHOL">
+       <RoomTypes>
+        <RoomType RoomTypeCode="K" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="IH01"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="2"/>
+       </GuestCounts>
+       <TimeSpan Start="2016-04-30" End="2016-05-01" Duration="P1N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="17:17:46" DepartureTime="11:53:56">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="52528" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>James</GivenName>
+           <Surname>Tustison</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="801-583-8271" PhoneUseType="6"/>
+           <Email EmailType="1">jtusti.452771@guest.booking.com</Email>
+           <Address UseType="2">
+           <CityName>.</CityName>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="Booking.Com" CodeContext="FEDID"/>
+           <AddressInfo>
+           </AddressInfo>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra1>.</Extra1>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="24">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="64.68"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="7.6"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="64.68"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="64.68"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="170674" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="WHOL" SourceOfBusiness="WHOL">
+       <RoomTypes>
+        <RoomType RoomTypeCode="K" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="EXPS"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="2"/>
+       </GuestCounts>
+       <TimeSpan Start="2016-04-30" End="2016-05-01" Duration="P1N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="19:56:28" DepartureTime="11:54:22">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="51265" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Dawn</GivenName>
+           <Surname>West</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="801-8083296" PhoneUseType="6"/>
+           <Email EmailType="1">thymesavours@gmail.com</Email>
+           <Address UseType="2">
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="Expedia" CodeContext="FEDID" Department="Vendor 52926"/>
+           <AddressInfo>
+           <AddressLine>10440 North Central Expressway</AddressLine>
+           <AddressLine>Suite 800</AddressLine>
+           <CityName>Dallas</CityName>
+           <PostalCode>75231</PostalCode>
+           <StateProv>TX</StateProv>
+           <CountryName>USA</CountryName>
+           </AddressInfo>
+          <Email>domesticbilling@hotels.com</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra1>.</Extra1>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+  </StayInfos>
+ </OTA_HotelStayInfoNotifRQ>
