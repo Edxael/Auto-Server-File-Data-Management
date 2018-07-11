@@ -8,5 +8,9 @@
     "start": "node server.js"
   },
   "author": "Edmundo Rubio",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  }
 }

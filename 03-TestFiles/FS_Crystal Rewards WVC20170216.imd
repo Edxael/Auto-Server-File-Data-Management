@@ -1,0 +1,4904 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <OTA_HotelStayInfoNotifRQ Version="16.7" TimeStamp="2017-02-21T12:50:14-07:00" xmlns="http://www.opentravel.org/OTA/2003/05" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SequenceNmbr="789481250" TransactionIdentifier="2017-02-16">
+  <StayInfos HotelName="Crystal Inn Hotel &amp; Suites - WVC">
+   <StayInfo SequenceNumber="1">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="631.04"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="82.66"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="631.04"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="631.04"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="496022" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="WHOL" SourceOfBusiness="1">
+       <RoomTypes>
+        <RoomType RoomTypeCode="K" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="EXPS"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-06" End="2017-02-16" Duration="P10N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="15:11:15" DepartureTime="10:17:14">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="92517" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Colin</GivenName>
+           <Surname>Young</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="01569730558" PhoneUseType="6"/>
+           <Email EmailType="1">@</Email>
+           <Address UseType="2">
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="Expedia" CodeContext="FEDID"/>
+           <AddressInfo>
+           </AddressInfo>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>.</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="2">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="348"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="45.6"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="348"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="348"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="496280" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="CORP" SourceOfBusiness="DIRB">
+       <RoomTypes>
+        <RoomType RoomTypeCode="K" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-12" End="2017-02-16" Duration="P4N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="16:57:13" DepartureTime="06:34:38">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="42030" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Don</GivenName>
+           <Surname>Lundergan</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="2088592394" PhoneUseType="5"/>
+           <Email EmailType="1">dplundergan@afstores.com</Email>
+           <Address UseType="2">
+           <AddressLine>6805 E Victory Rd</AddressLine>
+           <CityName>Boise</CityName>
+           <PostalCode>83706</PostalCode>
+           <StateProv>ID</StateProv>
+           <CountryName>United States</CountryName>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="Associated Food Stores - LRA" CodeContext="FEDID" Department="LRA"/>
+           <AddressInfo>
+           <AddressLine>1850 W 2100 S</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>ddward@afstores.com</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>Silver Toyota Corolla</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="3">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="368"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="49.09"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="6">
+      <SummaryAmount Amount="13.01"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="381.01"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="368"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="496293" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="CORP" SourceOfBusiness="DIRB">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-12" End="2017-02-16" Duration="P4N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="20:15:59" DepartureTime="07:26:53">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="92695" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Carolyn</GivenName>
+           <Surname>Risley</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="281-798-6423" PhoneUseType="4"/>
+           <Email EmailType="1">carisley@prodigy.net</Email>
+           <Address UseType="2">
+           <AddressLine>4407 Sophie Ct</AddressLine>
+           <CityName>Sugar Land</CityName>
+           <PostalCode>77479</PostalCode>
+           <StateProv>TX</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="Big West Oil (Flying J)" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>185 South State Street</AddressLine>
+           <AddressLine>13th Floor</AddressLine>
+           <CityName>Salt Lake City</CityName>
+           <PostalCode>84111</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>ron.hovey@bigwestoil.com</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>Shutlle</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="4">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="249"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="32.61"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="249"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="249"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="496316" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="CORP" SourceOfBusiness="DIRB">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-13" End="2017-02-16" Duration="P3N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="16:11:10" DepartureTime="07:02:03">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93366" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Brian</GivenName>
+           <Surname>Beckman</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="801-857-7118" PhoneUseType="5"/>
+           <Email EmailType="1">jasonlee.smith@questar.com</Email>
+           <Address UseType="2">
+           <AddressLine>1337 Canyon Rd #B15</AddressLine>
+           <CityName>Kemmerer</CityName>
+           <PostalCode>83101</PostalCode>
+           <StateProv>WY</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="Questar Gas - LRA" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>1140 W 200 S</AddressLine>
+           <CityName>Salt Lake City</CityName>
+           <PostalCode>84145</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>Questar Truck</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="5">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="276"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="37.2"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="6">
+      <SummaryAmount Amount="15.41"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="291.41"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="276"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="496335" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="CORP" SourceOfBusiness="DIRB">
+       <RoomTypes>
+        <RoomType RoomTypeCode="K" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-13" End="2017-02-16" Duration="P3N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="18:53:26" DepartureTime="12:42:55">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="89526" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Tareq</GivenName>
+           <Surname>Mahmood</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="612-873-9521" PhoneUseType="5"/>
+           <Email EmailType="1">csantora@petronet.com</Email>
+           <Address UseType="2">
+           <AddressLine>531 Sorenson Trl</AddressLine>
+           <CityName>Keller</CityName>
+           <PostalCode>76248</PostalCode>
+           <StateProv>TX</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="Big West Oil (Flying J)" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>185 South State Street</AddressLine>
+           <AddressLine>13th Floor</AddressLine>
+           <CityName>Salt Lake City</CityName>
+           <PostalCode>84111</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>ron.hovey@bigwestoil.com</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>Black Cruz</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="6">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="267"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="34.98"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="267"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="267"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="496325" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="CORP" SourceOfBusiness="DIRB">
+       <RoomTypes>
+        <RoomType RoomTypeCode="K" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-13" End="2017-02-16" Duration="P3N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="17:16:10" DepartureTime="06:58:13">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="78682" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Curt</GivenName>
+           <Surname>Openshaw</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="208-473-8739" PhoneUseType="5"/>
+           <Email EmailType="1">brentj@midwestfloors.com</Email>
+           <Address UseType="2">
+           <AddressLine>233 Queens Drive</AddressLine>
+           <CityName>Nampa</CityName>
+           <PostalCode>83687</PostalCode>
+           <StateProv>ID</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="Midwest Floor Covering" Code="87-0153288" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>810 West 2500 South</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>brentj@midwestfloors.com</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>None</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="7">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="276"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="37.33"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="6">
+      <SummaryAmount Amount="17.18"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="293.18"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="276"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="496341" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="CORP" SourceOfBusiness="DIRB">
+       <RoomTypes>
+        <RoomType RoomTypeCode="K" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-13" End="2017-02-16" Duration="P3N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="22:20:49" DepartureTime="10:25:52">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="89242" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Caroline</GivenName>
+           <Surname>Santora</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="310-987-1981" PhoneUseType="5"/>
+           <Email EmailType="1">csantora@petronet.com</Email>
+           <Address UseType="2">
+           <AddressLine>5834 E Beck Ln</AddressLine>
+           <CityName>Aliso Viejo</CityName>
+           <PostalCode>85254</PostalCode>
+           <StateProv>CA</StateProv>
+           <CountryName>United States</CountryName>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="Big West Oil (Flying J)" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>185 South State Street</AddressLine>
+           <AddressLine>13th Floor</AddressLine>
+           <CityName>Salt Lake City</CityName>
+           <PostalCode>84111</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>ron.hovey@bigwestoil.com</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>Toyota Camri Siler</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="8">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="258"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="33.81"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="258"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="258"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="496332" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="CORP" SourceOfBusiness="DIRB">
+       <RoomTypes>
+        <RoomType RoomTypeCode="K" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-13" End="2017-02-16" Duration="P3N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="18:04:31" DepartureTime="07:16:37">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="49540" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Darrel</GivenName>
+           <Surname>Schneider</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="435-828-3664" PhoneUseType="5"/>
+           <Email EmailType="1">eva.kreil@airgas.com</Email>
+           <Address UseType="2">
+           <AddressLine>205 Jones Ave</AddressLine>
+           <CityName>Evanston</CityName>
+           <PostalCode>82930</PostalCode>
+           <StateProv>WY</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="Airgas - LRA" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>Po Box 1152</AddressLine>
+           <CityName>Tulsa</CityName>
+           <PostalCode>74101-1152</PostalCode>
+           <StateProv>OK</StateProv>
+           </AddressInfo>
+          <Email>eva.kreil@airgas.com</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>Chrysler 300 Silver</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="9">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="249"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="32.61"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="249"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="249"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="496312" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="CORP" SourceOfBusiness="DIRB">
+       <RoomTypes>
+        <RoomType RoomTypeCode="K" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-13" End="2017-02-16" Duration="P3N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="15:53:38" DepartureTime="12:34:53">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="92554" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Chase</GivenName>
+           <Surname>Sherman</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="435-749-1622" PhoneUseType="5"/>
+           <Email EmailType="1">ty.wilson@questar.com</Email>
+           <Address UseType="2">
+           <AddressLine>130 S 350 E</AddressLine>
+           <CityName>Huntington</CityName>
+           <PostalCode>84528</PostalCode>
+           <StateProv>UT</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="Questar Gas - LRA" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>1140 W 200 S</AddressLine>
+           <CityName>Salt Lake City</CityName>
+           <PostalCode>84145</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>Questar Truck</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="10">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="258"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="33.81"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="258"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="258"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="496343" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="CORP" SourceOfBusiness="DIRB">
+       <RoomTypes>
+        <RoomType RoomTypeCode="K" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="2"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-13" End="2017-02-16" Duration="P3N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="23:54:17" DepartureTime="12:33:57">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93388" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Michael</GivenName>
+           <Surname>Suitor</Surname>
+           </PersonName>
+           <Email EmailType="1">eva.kreil@airgas.com</Email>
+           <Address UseType="2">
+           <AddressLine>2311 Terrell Rd</AddressLine>
+           <CityName>Greenville</CityName>
+           <PostalCode>75402</PostalCode>
+           <StateProv>TX</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="Airgas - LRA" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>Po Box 1152</AddressLine>
+           <CityName>Tulsa</CityName>
+           <PostalCode>74101-1152</PostalCode>
+           <StateProv>OK</StateProv>
+           </AddressInfo>
+          <Email>eva.kreil@airgas.com</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>Nissan Maxima</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="11">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="258"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="33.81"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="258"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="258"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="496327" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="CORP" SourceOfBusiness="DIRB">
+       <RoomTypes>
+        <RoomType RoomTypeCode="K" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-13" End="2017-02-16" Duration="P3N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="17:34:48" DepartureTime="07:28:31">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93387" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>James</GivenName>
+           <Surname>Tietz</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="208-884-0730" PhoneUseType="5"/>
+           <Email EmailType="1">eva.kreil@airgas.com</Email>
+           <Address UseType="2">
+           <AddressLine>3957 W Niemann Dr</AddressLine>
+           <CityName>Meridian</CityName>
+           <PostalCode>83646</PostalCode>
+           <StateProv>ID</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="Airgas - LRA" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>Po Box 1152</AddressLine>
+           <CityName>Tulsa</CityName>
+           <PostalCode>74101-1152</PostalCode>
+           <StateProv>OK</StateProv>
+           </AddressInfo>
+          <Email>eva.kreil@airgas.com</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>Ford Explore Silver</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="12">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496363" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="K" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="14:43:01" DepartureTime="12:38:12">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93893" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Alan</GivenName>
+           <Surname>Beghtol</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="859-396-7741" PhoneUseType="5"/>
+           <Email EmailType="1">@</Email>
+           <Address UseType="2">
+           <AddressLine>1588 Puckett Rd</AddressLine>
+           <CityName>Lawrenceburg</CityName>
+           <PostalCode>40342</PostalCode>
+           <StateProv>KY</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>Shuttle</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="13">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="172"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="22.54"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="172"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="172"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="496352" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="DIRB">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQH" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="12:41:19" DepartureTime="06:53:50">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="70342" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Eric</GivenName>
+           <Surname>Betts</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="435-210-4613" PhoneUseType="5"/>
+           <Email EmailType="1">betts.eric@yahoo.com</Email>
+           <Address UseType="2">
+           <AddressLine>400 North 500 West #264</AddressLine>
+           <CityName>Moab</CityName>
+           <PostalCode>84532</PostalCode>
+           <StateProv>UT</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="UDOT" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>4501 So  2700 W PO Box 148250</AddressLine>
+           <CityName>Salt Lake City</CityName>
+           <PostalCode>84114</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>State White Chevy Udot</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="14">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496355" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="K" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="13:54:49" DepartureTime="07:53:42">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93724" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Michael</GivenName>
+           <Surname>Bodenchuk</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="210-561-0804" PhoneUseType="5"/>
+           <Email EmailType="1">ruth.luna@aphis.usda.gov</Email>
+           <Address UseType="2">
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>White</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="15">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496402" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="17:36:29" DepartureTime="05:32:45">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93704" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Janet</GivenName>
+           <Surname>Bucknall</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="410-245-6241" PhoneUseType="5"/>
+           <Email EmailType="1">janet.l.bucknall@aphis.usda.gov</Email>
+           <Address UseType="2">
+           <CityName>Davidsonville</CityName>
+           <PostalCode>21035</PostalCode>
+           <StateProv>MD</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>None</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="16">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496413" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="20:06:50" DepartureTime="11:25:34">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93705" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Kirk</GivenName>
+           <Surname>Budd</Surname>
+           </PersonName>
+           <Email EmailType="1">joni.k.abbott@aphis.usda.gov</Email>
+           <Address UseType="2">
+           <CityName>Rushville</CityName>
+           <PostalCode>69360</PostalCode>
+           <StateProv>NE</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>.</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="17">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496401" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQHR" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="17:36:10" DepartureTime="05:46:22">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93712" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>William H</GivenName>
+           <Surname>Clay</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="301-332-5630" PhoneUseType="5"/>
+           <Email EmailType="1">millicent.kaplan@aphis.usda.gov</Email>
+           <Address UseType="2">
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>.</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="18">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496347" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="K" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="10:33:25" DepartureTime="10:51:27">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93636" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Matt</GivenName>
+           <Surname>Cleland</Surname>
+           </PersonName>
+           <Email EmailType="1">mcleland@aphis.usda.gov</Email>
+           <Address UseType="2">
+           <AddressLine>3014 Hollowfield Ln</AddressLine>
+           <CityName>Greenbrier</CityName>
+           <PostalCode>37073</PostalCode>
+           <StateProv>TN</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>None</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="19">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496417" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="CORP" SourceOfBusiness="DIRB">
+       <RoomTypes>
+        <RoomType RoomTypeCode="K" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="21:25:53" DepartureTime="12:43:07">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93644" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>John</GivenName>
+           <Surname>Clem</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="614-421-8897" PhoneUseType="5"/>
+           <Email EmailType="1">john@clem.ws</Email>
+           <Address UseType="2">
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA Wildlife Services" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>1594 W North Temple</AddressLine>
+           <CityName>Salt Lake City</CityName>
+           <PostalCode>84114</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>.</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="20">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="174"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="22.8"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="174"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="174"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="496412" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="CORP" SourceOfBusiness="13">
+       <RoomTypes>
+        <RoomType RoomTypeCode="K" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="19:58:29" DepartureTime="12:34:12">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="91419" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>William</GivenName>
+           <Surname>Daniel</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="801-318-5556" PhoneUseType="5"/>
+           <Email EmailType="1">@</Email>
+           <Address UseType="2">
+           <CityName>Jackson</CityName>
+           <PostalCode>83002</PostalCode>
+           <StateProv>WY</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="Kroger Company - LRA" CodeContext="FEDID" Department="LRA"/>
+           <AddressInfo>
+           <AddressLine>1014 Vine Street</AddressLine>
+           <CityName>Cincinnati</CityName>
+           <PostalCode>45202</PostalCode>
+           <StateProv>OH</StateProv>
+           </AddressInfo>
+          <Email>barbara.hornback@kroger.com</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>.</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="21">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496405" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="17:38:22" DepartureTime="07:12:55">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93697" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Anthony</GivenName>
+           <Surname>Decino</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="720-236-9058" PhoneUseType="5"/>
+           <Email EmailType="1">anthony.a.decino@aphis.usda.gov</Email>
+           <Address UseType="2">
+           <CityName>Milliken</CityName>
+           <PostalCode>80543</PostalCode>
+           <StateProv>CO</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>.</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="22">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496409" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="19:32:14" DepartureTime="12:43:15">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93678" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Joseph</GivenName>
+           <Surname>Dory</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="208-484-7782" PhoneUseType="5"/>
+           <Email EmailType="1">amy.l.cochran@aphis.usda.gov</Email>
+           <Address UseType="2">
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>.</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="23">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496346" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQHR" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="10:32:39" DepartureTime="10:27:04">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93637" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Brett</GivenName>
+           <Surname>Dunlap</Surname>
+           </PersonName>
+           <Email EmailType="1">brett.g.dunlap@aphis.usda.gov</Email>
+           <Address UseType="2">
+           <AddressLine>611 Frances Circle</AddressLine>
+           <CityName>Mount Juliet</CityName>
+           <PostalCode>37122</PostalCode>
+           <StateProv>TN</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>Shuttle</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="24">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496373" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="15:50:37" DepartureTime="06:10:19">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93724" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Robert</GivenName>
+           <Surname>Elliot</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="210-561-0804" PhoneUseType="5"/>
+           <Email EmailType="1">ruth.luna@aphis.usda.gov</Email>
+           <Address UseType="2">
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>Shuttle</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="25">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496394" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="17:01:41" DepartureTime="07:15:00">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93719" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>D</GivenName>
+           <Surname>Felix</Surname>
+           </PersonName>
+           <Email EmailType="1">martin.s.lowney@usda.gov</Email>
+           <Address UseType="2">
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>None</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="26">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496393" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="K" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="17:01:13" DepartureTime="07:29:20">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93718" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Lenord</GivenName>
+           <Surname>Felix</Surname>
+           </PersonName>
+           <Email EmailType="1">martin.s.lowney@usda.gov</Email>
+           <Address UseType="2">
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>None</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="27">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496400" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="17:32:54" DepartureTime="06:04:53">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93713" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Mike</GivenName>
+           <Surname>Foster</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="307-261-5336" PhoneUseType="5"/>
+           <Email EmailType="1">michael.d.foster@aphis.usda.gov</Email>
+           <Address UseType="2">
+           <CityName>Casper</CityName>
+           <PostalCode>82602</PostalCode>
+           <StateProv>WY</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>Grey F250 Pick Up Gov</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="28">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496378" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="16:09:47" DepartureTime="07:39:24">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93673" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Wes</GivenName>
+           <Surname>Gossard</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="775-851-4848" PhoneUseType="5"/>
+           <Email EmailType="1">cheryl.a.cusick@aphis.usda.gov</Email>
+           <Address UseType="2">
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>Shuttle</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="29">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496367" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="15:13:10" DepartureTime="08:32:09">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93695" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Tim</GivenName>
+           <Surname>Graff</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="406-431-9826" PhoneUseType="5"/>
+           <Email EmailType="1">tgraff@bresnan.net</Email>
+           <Address UseType="2">
+           <CityName>Helena</CityName>
+           <PostalCode>59602</PostalCode>
+           <StateProv>MT</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>Shuttle</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="30">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496353" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="13:36:09" DepartureTime="05:49:02">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93716" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Tom</GivenName>
+           <Surname>Halstead</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="785-565-2727" PhoneUseType="5"/>
+           <Email EmailType="1">thomas.d.halstead@aphis.usda.gov</Email>
+           <Address UseType="2">
+           <AddressLine>7327 Country Rd</AddressLine>
+           <CityName>Riley</CityName>
+           <PostalCode>66531</PostalCode>
+           <StateProv>KS</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>Shuttle</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="31">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496369" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="15:14:34" DepartureTime="12:34:33">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93817" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Tom</GivenName>
+           <Surname>Hlavnicka</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="406-390-4580" PhoneUseType="5"/>
+           <Email EmailType="1">tanker406@yahoo.com</Email>
+           <Address UseType="2">
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>Shuttle</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="32">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496392" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="17:00:21" DepartureTime="06:20:52">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93698" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Robert</GivenName>
+           <Surname>Hudson</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="919-855-7201" PhoneUseType="5"/>
+           <Email EmailType="1">robert.l.hudson@aphis.usda.gov</Email>
+           <Address UseType="2">
+           <CityName>Willow Spring</CityName>
+           <PostalCode>27592</PostalCode>
+           <StateProv>NC</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>Shuttle</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="33">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496399" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="17:26:39" DepartureTime="11:27:10">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="94092" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Gerald E</GivenName>
+           <Surname>Hyatt</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="307-261-5336" PhoneUseType="5"/>
+           <Address UseType="2">
+           <CityName>Casper</CityName>
+           <PostalCode>82601</PostalCode>
+           <StateProv>WY</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>Gov Ford Truck</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="34">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496377" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="16:09:42" DepartureTime="07:50:54">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93673" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Mark</GivenName>
+           <Surname>Jensen</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="775-851-4848" PhoneUseType="5"/>
+           <Email EmailType="1">cheryl.a.cusick@aphis.usda.gov</Email>
+           <Address UseType="2">
+           <AddressLine>8775 Technology Way</AddressLine>
+           <CityName>Reno</CityName>
+           <PostalCode>89521</PostalCode>
+           <StateProv>NV</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>White Dodge Ram 2500</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="35">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496389" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="16:40:00" DepartureTime="05:52:28">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93638" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Jackie</GivenName>
+           <Surname>Keaton</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="615-335-0618" PhoneUseType="5"/>
+           <Email EmailType="1">jackie.keaton@aphis.usda.gov</Email>
+           <Address UseType="2">
+           <CityName>Mount Sterling</CityName>
+           <PostalCode>43143</PostalCode>
+           <StateProv>OH</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>White Jeep</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="36">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496388" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="16:38:48" DepartureTime="10:56:13">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93673" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Tim</GivenName>
+           <Surname>Keogh</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="775-851-4848" PhoneUseType="5"/>
+           <Email EmailType="1">cheryl.a.cusick@aphis.usda.gov</Email>
+           <Address UseType="2">
+           <CityName>Ely</CityName>
+           <PostalCode>89301</PostalCode>
+           <StateProv>NV</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>Gray Ram NV</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="37">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496368" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="K" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="15:13:35" DepartureTime="08:29:58">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93727" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>John</GivenName>
+           <Surname>Martin</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="307-388-0072" PhoneUseType="5"/>
+           <Email EmailType="1">jdm5472@gmail.com</Email>
+           <Address UseType="2">
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>Shuttle</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="38">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496359" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="K" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="14:13:54" DepartureTime="06:25:38">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93672" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Alan</GivenName>
+           <Surname>May</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="505-934-0762" PhoneUseType="5"/>
+           <Email EmailType="1">alan.may@aphis.usda.gov</Email>
+           <Address UseType="2">
+           <AddressLine>9709 Tapatio Dr Nw</AddressLine>
+           <CityName>Albuquerque</CityName>
+           <PostalCode>87114</PostalCode>
+           <StateProv>NM</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>Shuttle</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="39">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496403" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="17:37:27" DepartureTime="05:42:22">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93710" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Martin</GivenName>
+           <Surname>Mendoza Jr</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="202-799-7097" PhoneUseType="5"/>
+           <Email EmailType="1">millicent.kaplan@aphis.usda.gov</Email>
+           <Address UseType="2">
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>.</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="40">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496384" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="16:30:31" DepartureTime="12:35:06">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93677" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Dennis</GivenName>
+           <Surname>Orthmeyer</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="916-979-2675" PhoneUseType="5"/>
+           <Email EmailType="1">nicolas.s.varanini@aphis.usda.gov</Email>
+           <Address UseType="2">
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>.</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="41">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496404" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="17:37:58" DepartureTime="08:00:36">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93703" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>John</GivenName>
+           <Surname>Paulson</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="701-471-2178" PhoneUseType="5"/>
+           <Email EmailType="1">john.d.paulson@aphis.usda.gov</Email>
+           <Address UseType="2">
+           <CityName>Bismarck</CityName>
+           <PostalCode>58501</PostalCode>
+           <StateProv>ND</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>None</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="42">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496350" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="12:20:53" DepartureTime="12:34:44">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93673" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Joshua</GivenName>
+           <Surname>Pavia</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="775-851-4848" PhoneUseType="5"/>
+           <Email EmailType="1">cheryl.a.cusick@aphis.usda.gov</Email>
+           <Address UseType="2">
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>Truck</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="43">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="178"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="23.32"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="178"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="178"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="496396" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="CORP" SourceOfBusiness="DIRB">
+       <RoomTypes>
+        <RoomType RoomTypeCode="KS" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="17:16:25" DepartureTime="12:44:03">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="78682" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Dustin</GivenName>
+           <Surname>Rhodes</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="720-775-9623" PhoneUseType="5"/>
+           <Email EmailType="1">brentj@midwestfloors.com</Email>
+           <Address UseType="2">
+           <AddressLine>4957 Valentia Street</AddressLine>
+           <CityName>Denver</CityName>
+           <PostalCode>80238</PostalCode>
+           <StateProv>CO</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="Midwest Floor Covering" Code="87-0153288" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>810 West 2500 South</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>brentj@midwestfloors.com</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>None</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="44">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496391" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="16:58:40" DepartureTime="10:52:46">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93681" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Tom</GivenName>
+           <Surname>Rigden</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="928-713-8082" PhoneUseType="5"/>
+           <Email EmailType="1">trsprstar@aol.com</Email>
+           <Address UseType="2">
+           <AddressLine>300 Sunset Park Dr</AddressLine>
+           <CityName>Prescott</CityName>
+           <PostalCode>86303</PostalCode>
+           <StateProv>AZ</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>Shuttle</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="45">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="170"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="22.28"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="170"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="170"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="496406" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="CORP" SourceOfBusiness="DIRB">
+       <RoomTypes>
+        <RoomType RoomTypeCode="KEJ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="17:39:52" DepartureTime="06:27:36">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="18031" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Randy</GivenName>
+           <Surname>Roush</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="801-910-7079" PhoneUseType="5"/>
+           <Email EmailType="1">randy.roush@maverik.com</Email>
+           <Address UseType="2">
+           <AddressLine>2142 W Quilceda St</AddressLine>
+           <CityName>Kuna</CityName>
+           <PostalCode>83634</PostalCode>
+           <StateProv>ID</StateProv>
+           <CountryName>United States</CountryName>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="Maverik Corporate" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>185 South State Street</AddressLine>
+           <AddressLine>Suite 800</AddressLine>
+           <CityName>Salt Lake City</CityName>
+           <PostalCode>84111</PostalCode>
+           <StateProv>UT</StateProv>
+           <CountryName>United States</CountryName>
+           </AddressInfo>
+          <Email>Courtney.bragg@maverik.com</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>White Highlander</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="46">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496410" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="19:50:40" DepartureTime="05:28:43">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93686" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Barbara</GivenName>
+           <Surname>Shaffer</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="615-512-9560" PhoneUseType="5"/>
+           <Email EmailType="1">pilot4wildlife@yahoo.com</Email>
+           <Address UseType="2">
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>.</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="47">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496419" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="23:30:38" DepartureTime="11:26:02">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93726" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Joseph</GivenName>
+           <Surname>Smith</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="805-904-9063" PhoneUseType="5"/>
+           <Email EmailType="1">biplanerides@aol.com</Email>
+           <Address UseType="2">
+           <CityName>Oceano</CityName>
+           <PostalCode>93445</PostalCode>
+           <StateProv>CA</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>None</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="48">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496356" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="13:55:56" DepartureTime="07:03:35">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93728" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Cole</GivenName>
+           <Surname>Taylor</Surname>
+           </PersonName>
+           <Email EmailType="1">ruth.luna@aphis.usda.gov</Email>
+           <Address UseType="2">
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>N</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="49">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496357" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="13:57:24" DepartureTime="06:31:46">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93724" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Thomas</GivenName>
+           <Surname>Taylor</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="210-561-0804" PhoneUseType="5"/>
+           <Email EmailType="1">ruth.luna@aphis.usda.gov</Email>
+           <Address UseType="2">
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>N</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="50">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496375" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="15:52:37" DepartureTime="08:43:29">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93721" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Adam</GivenName>
+           <Surname>Tucker</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="970-326-6800" PhoneUseType="5"/>
+           <Email EmailType="1">martin.s.lowney@usda.gov</Email>
+           <Address UseType="2">
+           <AddressLine>980 Alta Vista Dr</AddressLine>
+           <CityName>Craig</CityName>
+           <PostalCode>81625</PostalCode>
+           <StateProv>CO</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>None</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="51">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496374" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="15:52:07" DepartureTime="08:40:32">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93722" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Luke</GivenName>
+           <Surname>Tucker</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="970-326-6335" PhoneUseType="5"/>
+           <Email EmailType="1">martin.s.lowney@usda.gov</Email>
+           <Address UseType="2">
+           <AddressLine>919 Taylor St</AddressLine>
+           <CityName>Craig</CityName>
+           <PostalCode>81625</PostalCode>
+           <StateProv>CO</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>Grey Dodge Ram</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="52">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496348" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="10:33:55" DepartureTime="08:34:05">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93675" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Steve</GivenName>
+           <Surname>Uhland</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="719-892-0257" PhoneUseType="5"/>
+           <Email EmailType="1">steveuhland1@gmail.com</Email>
+           <Address UseType="2">
+           <AddressLine>15219 County Rd 37</AddressLine>
+           <CityName>Eads</CityName>
+           <PostalCode>81036</PostalCode>
+           <StateProv>CO</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>Shuttle</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="53">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496354" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="13:52:24" DepartureTime="05:47:12">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93694" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Timothy</GivenName>
+           <Surname>Veenendaal</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="402-434-2342" PhoneUseType="5"/>
+           <Email EmailType="1">timothy.b.veenendaal@aphis.usda.gov</Email>
+           <Address UseType="2">
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>None</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="54">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496366" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="15:13:01" DepartureTime="08:31:02">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93674" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Eric</GivenName>
+           <Surname>Waldorf</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="406-690-2289" PhoneUseType="5"/>
+           <Email EmailType="1">ewald15681@msn.com</Email>
+           <Address UseType="2">
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>Shuttle</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="55">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="218"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="28.56"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="218"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="218"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="496418" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="CORP" SourceOfBusiness="DIRB">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="22:13:11" DepartureTime="07:01:04">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="82338" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Adam</GivenName>
+           <Surname>Weyrick</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="801-978-2220" PhoneUseType="5"/>
+           <Email EmailType="1">masumi_barnes@nittsu.com</Email>
+           <Address UseType="2">
+           <AddressLine>2951 Addison Dr</AddressLine>
+           <CityName>Grove City</CityName>
+           <PostalCode>43123</PostalCode>
+           <StateProv>OH</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="Nippon Express" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>1840 Milestone Drive #C</AddressLine>
+           <CityName>Salt Lake City</CityName>
+           <PostalCode>84104</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>floyd_alberts@nittsu.com</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>.</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="56">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="24.9"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="190"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496372" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQP" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-14" End="2017-02-16" Duration="P2N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="15:50:26" DepartureTime="05:29:16">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93724" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Curtis</GivenName>
+           <Surname>Wollman</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="210-561-0804" PhoneUseType="5"/>
+           <Email EmailType="1">ruth.luna@aphis.usda.gov</Email>
+           <Address UseType="2">
+           <AddressLine>3329 Cedarhill Dr</AddressLine>
+           <CityName>San Angelo</CityName>
+           <PostalCode>76904</PostalCode>
+           <StateProv>TX</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>Shuttle</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="57">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="109"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="14.28"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="109"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="109"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="496422" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="CORP" SourceOfBusiness="1">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-15" End="2017-02-16" Duration="P1N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="10:41:24" DepartureTime="07:49:21">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="94041" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Nikisha</GivenName>
+           <Surname>Bond</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="586-772-6161" PhoneUseType="6"/>
+           <Email EmailType="1">annmarie.franks@stahlsid.com</Email>
+           <Address UseType="2">
+           <AddressLine>6353 E 14 Mile Rd</AddressLine>
+           <CityName>Sterling Heights</CityName>
+           <PostalCode>48312</PostalCode>
+           <StateProv>MI</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="Groupe Stahl" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>6353 E 14 Mile Rd</AddressLine>
+           <CityName>Sterling Heights</CityName>
+           <PostalCode>48312</PostalCode>
+           <StateProv>MI</StateProv>
+           </AddressInfo>
+          <Email>linda.greenfield@stahls.com</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>None</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="58">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="82"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="10.74"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="82"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="82"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="496442" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="CORP" SourceOfBusiness="DIRB">
+       <RoomTypes>
+        <RoomType RoomTypeCode="K" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-15" End="2017-02-16" Duration="P1N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="20:04:52" DepartureTime="06:20:29">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="60581" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Steve</GivenName>
+           <Surname>Carlson</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="208-941-4240" PhoneUseType="5"/>
+           <Email EmailType="1">rdtaylor1978@hotmail.com</Email>
+           <Address UseType="2">
+           <AddressLine>3099 North Columbine Ave</AddressLine>
+           <CityName>Boise</CityName>
+           <PostalCode>83713</PostalCode>
+           <StateProv>ID</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="Pacific Steel" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2850 West 900 South</AddressLine>
+           <CityName>Salt Lake City</CityName>
+           <PostalCode>84104</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>ed_joyce@pacific-steel.com</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>Pacific Semi</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="59">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="64"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="8.38"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="64"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="64"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="496446" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="CORP" SourceOfBusiness="DIRB">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQS" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-15" End="2017-02-16" Duration="P1N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="22:03:19" DepartureTime="11:33:21">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="62862" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Ray</GivenName>
+           <Surname>Carter</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="435-881-8340" PhoneUseType="5"/>
+           <Email EmailType="1">wkitewaternay@hotmail.com</Email>
+           <Address UseType="2">
+           <AddressLine>Po Box 100</AddressLine>
+           <CityName>Cokeville</CityName>
+           <PostalCode>83114</PostalCode>
+           <StateProv>WY</StateProv>
+           </Address>
+           <CustLoyalty MembershipID="308140179000018312 ON FIL"/>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="CLC Card (USE WEB CHECK INN)" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>8110 E 32ns St N.</AddressLine>
+           <CityName>Wichita</CityName>
+           <PostalCode>67226</PostalCode>
+           <StateProv>KS</StateProv>
+           </AddressInfo>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>Usf Semi</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="60">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="127"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="16.64"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="127"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="127"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="496439" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="CORP" SourceOfBusiness="1">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="NET"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="2"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-15" End="2017-02-16" Duration="P1N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="18:07:56" DepartureTime="12:34:22">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="94059" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Tyler</GivenName>
+           <Surname>Cox</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="801-907-6700" PhoneUseType="6"/>
+           <Email EmailType="1">msloane@csusai.com</Email>
+           <Address UseType="2">
+           <AddressLine>2035 S Milestone Dr</AddressLine>
+           <CityName>Salt Lake City</CityName>
+           <PostalCode>84104</PostalCode>
+           <StateProv>UT</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="Comfort Systems" CodeContext="FEDID" Department="CORP"/>
+           <AddressInfo>
+           <AddressLine>2035 So Milestone Drive</AddressLine>
+           <CityName>Salt Lake City</CityName>
+           <PostalCode>84104</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>cmclaughlin@csusai.com</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>Comfort Systems Truck</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="61">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="64"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="8.38"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="64"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="64"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="496432" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="CORP" SourceOfBusiness="DIRB">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQHR" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-15" End="2017-02-16" Duration="P1N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="17:06:34" DepartureTime="06:25:33">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="67020" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>John</GivenName>
+           <Surname>Gloeckner</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="541-771-1405" PhoneUseType="5"/>
+           <Email EmailType="1">l4ranchbuckingbulls@gmail.com</Email>
+           <Address UseType="2">
+           <AddressLine>17280 Emerald Valley Rd</AddressLine>
+           <CityName>Sisters</CityName>
+           <PostalCode>97759</PostalCode>
+           <StateProv>OR</StateProv>
+           </Address>
+           <CustLoyalty MembershipID="3081400126500254103"/>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="CLC Card (USE WEB CHECK INN)" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>8110 E 32ns St N.</AddressLine>
+           <CityName>Wichita</CityName>
+           <PostalCode>67226</PostalCode>
+           <StateProv>KS</StateProv>
+           </AddressInfo>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>None</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="62">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="95"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="12.45"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="95"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="95"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496437" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-15" End="2017-02-16" Duration="P1N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="17:54:35" DepartureTime="12:33:42">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="78587" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>John</GivenName>
+           <Surname>Kinman</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="540-490-0053" PhoneUseType="5"/>
+           <Email EmailType="1">johnkinman@hotmail.com</Email>
+           <Address UseType="2">
+           <AddressLine>1282 W Clear Creek Canyon</AddressLine>
+           <CityName>Sevier</CityName>
+           <PostalCode>84766</PostalCode>
+           <StateProv>UT</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>Blue Ranger</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="63">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="89"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="11.66"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="89"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="89"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="496447" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="CORP" SourceOfBusiness="DIRB">
+       <RoomTypes>
+        <RoomType RoomTypeCode="K" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="2"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-15" End="2017-02-16" Duration="P1N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="23:40:21" DepartureTime="07:18:37">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93784" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Kalen</GivenName>
+           <Surname>Lofley</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="435-749-9803" PhoneUseType="5"/>
+           <Email EmailType="1">@</Email>
+           <Address UseType="2">
+           <AddressLine>770 W Canyon Rd</AddressLine>
+           <CityName>Ferron</CityName>
+           <PostalCode>84523</PostalCode>
+           <StateProv>UT</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="Electrical Contractors" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>145 East 1760 South</AddressLine>
+           <CityName>Price</CityName>
+           <PostalCode>84501</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>kris@eciwest.com</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>White Ford Focus</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="64">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="0"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="12.95"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="3">
+      <SummaryAmount Amount="165"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="165"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="0"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="9" ID="USDA2" ID_Context="Group"/>
+     <UniqueID Type="14" ID="496420" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="GOV" SourceOfBusiness="SALE">
+       <RoomTypes>
+        <RoomType RoomTypeCode="MEET" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-15" End="2017-02-16" Duration="P1N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest GroupEventCode="USDA2" VIP="false" ArrivalTime="06:34:34" DepartureTime="07:41:41">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="94085" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>USDA</GivenName>
+           <Surname>Meeting</Surname>
+           </PersonName>
+           <Email EmailType="1">paul.r.child@aphis.usda.gov</Email>
+           <Address UseType="2">
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USDA - Forest Service" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2222 W. 2300 S.</AddressLine>
+           <CityName>West Valley City</CityName>
+           <PostalCode>84119</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>jlindsay@fs.fed.us</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>.</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="65">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="64"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="8.38"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="64"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="64"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="496433" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="CORP" SourceOfBusiness="DIRB">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQP" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-15" End="2017-02-16" Duration="P1N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="17:07:44" DepartureTime="06:27:51">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="79627" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Josh</GivenName>
+           <Surname>Morrison</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="208-249-7768" PhoneUseType="5"/>
+           <Email EmailType="1">@</Email>
+           <Address UseType="2">
+           <CityName>Nampa</CityName>
+           <PostalCode>83686</PostalCode>
+           <StateProv>ID</StateProv>
+           </Address>
+           <CustLoyalty MembershipID="3081400126600106302"/>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="Union Pacific Railroad" CodeContext="FEDID"/>
+           <AddressInfo>
+           </AddressInfo>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>Uprr Truck</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="66">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="64"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="8.38"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="64"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="64"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="496443" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="CORP" SourceOfBusiness="DIRB">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQ" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-15" End="2017-02-16" Duration="P1N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="21:24:18" DepartureTime="10:11:53">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="56964" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>John</GivenName>
+           <Surname>Rayner</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="208-440-4120" PhoneUseType="5"/>
+           <Email EmailType="1">@</Email>
+           <Address UseType="2">
+           <AddressLine>875 East Silverado Ranch Drive</AddressLine>
+           <CityName>Las Vegas</CityName>
+           <PostalCode>89183</PostalCode>
+           <StateProv>NV</StateProv>
+           </Address>
+           <CustLoyalty MembershipID="3081400179000018106"/>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="USF Reddaway" CodeContext="FEDID" Department="CLC"/>
+           <AddressInfo>
+           <AddressLine>CLC</AddressLine>
+           </AddressInfo>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>Semi</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="67">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="124"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="16.24"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="124"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="124"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="496441" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="LEIS" SourceOfBusiness="DIRB">
+       <RoomTypes>
+        <RoomType RoomTypeCode="QQH" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="NET"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="2"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-15" End="2017-02-16" Duration="P1N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="19:01:42" DepartureTime="12:33:34">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="94029" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Dana</GivenName>
+           <Surname>Sheely</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="970-3897484" PhoneUseType="6"/>
+           <Email EmailType="1">danasheely@gmail.com</Email>
+           <Address UseType="2">
+           <AddressLine>892 Hunters Circle Pob 1220</AddressLine>
+           <CityName>Frisco</CityName>
+           <PostalCode>80443</PostalCode>
+           <StateProv>CO</StateProv>
+           </Address>
+          </Customer>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>Toureg Black</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+   <StayInfo SequenceNumber="68">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="89"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="11.66"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="89"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="89"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="496434" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="CORP" SourceOfBusiness="DIRB">
+       <RoomTypes>
+        <RoomType RoomTypeCode="KP" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="*OVR"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="1"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-15" End="2017-02-16" Duration="P1N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="17:24:08" DepartureTime="12:33:24">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="82572" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Carl</GivenName>
+           <Surname>Tanner</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="385-315-0332" PhoneUseType="5"/>
+           <Email EmailType="1">ctanner@cateequipment.com</Email>
+           <Address UseType="2">
+           <AddressLine>247 Charlwood Dr</AddressLine>
+           <CityName>Spring Creek</CityName>
+           <PostalCode>89815</PostalCode>
+           <StateProv>NV</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="Cate Equipment - LRA" CodeContext="FEDID"/>
+           <AddressInfo>
+           <AddressLine>2055 S Pioneer Rd</AddressLine>
+           <AddressLine>P O Box 27073</AddressLine>
+           <CityName>Salt Lake City</CityName>
+           <PostalCode>84127</PostalCode>
+           <StateProv>UT</StateProv>
+           </AddressInfo>
+          <Email>seatchel@cateequipment.com</Email>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>Cate Truck</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+  </StayInfos>
+ </OTA_HotelStayInfoNotifRQ>
