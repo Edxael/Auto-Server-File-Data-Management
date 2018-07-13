@@ -133,47 +133,60 @@ const theFun1 = () => {
                 // Reading data on XML File
             fs.readFile( `./01-FTP/${files[files.length -1]}`, function(err, data) {
                 let jsonData = parser.toJson(data);  // <-- This load jsonData variable with JSON
+                // let jsonData = convert.xml2js(data, {compact: true, spaces: 1});  // <-- This load jsonData variable with JSON
+                // console.log("\n The Data: ", jsonData)
+                // console.log("\n The Data: ", jsonData.elements[0].elements[0].elements)  // <-- Drilling when Compact === False
                 
-                // console.log("\n JSON-Data----------------------------\n", jsonData, "\n ----------------------------")
-                console.log("\n JSON-Data----------------------------\n")
-
-                console.log(jsonData["OTA_HotelStayInfoNotifRQ"])
-
-                console.log("\n -------------------------------------\n")
-
-                // let jsOBJ = JSON.parse(jsonData)     // <-- This change from JSON -to-> JavaScript.  
-                // let newRecords = jsOBJ.OTA_HotelStayInfoNotifRQ.StayInfos.StayInfo
-
-                // console.log("This file has: ", newRecords.length, " Records.")
-
-                // if(Array.isArray(newRecords)){ // Note: this do not chekc for ZERO-Record make sure to add that feature latter.
-                //     console.log("\nThis file has: ", newRecords.length, " Records.")
-                //     newRecords.map((x)=>{
-                //         let tep1 = '$t'
-                //         let cFullName = `${x.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.PersonName.GivenName} ${x.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.PersonName.Surname}`
-                //         let cEmail = typeof x.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.Email.EmailType
-                //         let cCity = x.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.Address.CityName
-
-                //         console.log("\n----------------------------------")
-                //         console.log("  Costumer Name: ", cFullName)
-                //         console.log("  Costumer Email: ", cEmail)
-                //         console.log("  Costumer City: ", cCity)
-                //         console.log("----------------------------------")
-                //     })
-                // } else {
-                //     let cFullName = `${newRecords.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.PersonName.GivenName} ${newRecords.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.PersonName.Surname}`
-                //     let cEmail = newRecords.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.Email
-                //     let cCity = newRecords.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.Address.CityName
-
-                //     console.log("\nThis file has: 1 Record.")
-                //     console.log("\n----------------------------------")
-                //     console.log("  Costumer Name: ", cFullName)
-                //     console.log("  Costumer Email: ", cEmail)
-                //     console.log("  Costumer City: ", cCity)
-                //     console.log("----------------------------------")
-                // } 
+                // console.log("\n The Data: ", jsonData.OTA_HotelStayInfoNotifRQ.StayInfos.StayInfo[0].HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.Email._text )
                 
 
+
+                let jsOBJ = JSON.parse(jsonData)     // <-- This change from JSON -to-> JavaScript.  
+                // console.log("\nThe JS Object: ", jsOBJ)
+
+
+                // console.log("\nThe Hotel name and this night stays: ", jsOBJ.OTA_HotelStayInfoNotifRQ.StayInfos.HotelName)
+                let newRecords = jsOBJ.OTA_HotelStayInfoNotifRQ.StayInfos.StayInfo
+
+
+                // console.log("The Array: ", newRecords)
+                console.log("This file has: ", newRecords.length, " Records.")
+
+                if(Array.isArray(newRecords)){ // Note: this do not chekc for ZERO-Record make sure to add that feature latter.
+                    console.log("\nThis file has: ", newRecords.length, " Records.")
+                    newRecords.map((x)=>{
+                        let tep1 = '$t'
+                        let cFullName = `${x.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.PersonName.GivenName} ${x.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.PersonName.Surname}`
+                        // let cEmail = x.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.Email[`$t`]
+                        let cEmail = typeof x.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.Email.EmailType
+                        
+                        // let cEmail = JSON.parse(newRecords.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.Email)
+                        // let cEmail = x.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.CompanyInfo
+                        let cCity = x.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.Address.CityName
+
+                        console.log("\n----------------------------------")
+                        console.log("  Costumer Name: ", cFullName)
+                        console.log("  Costumer Email: ", cEmail)
+                        console.log("  Costumer City: ", cCity)
+                        console.log("----------------------------------")
+                    })
+                } else {
+                    let cFullName = `${newRecords.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.PersonName.GivenName} ${newRecords.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.PersonName.Surname}`
+                    let cEmail = newRecords.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.Email
+                    let cCity = newRecords.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.Address.CityName
+
+                    console.log("\nThis file has: 1 Record.")
+                    console.log("\n----------------------------------")
+                    console.log("  Costumer Name: ", cFullName)
+                    console.log("  Costumer Email: ", cEmail)
+                    console.log("  Costumer City: ", cCity)
+                    console.log("----------------------------------")
+                } 
+                
+
+                // console.log("\n1st Costumer Name: ", jsOBJ.OTA_HotelStayInfoNotifRQ.StayInfos.StayInfo[3].HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.PersonName.GivenName)
+                // console.log("1st Costumer Last Name: ", jsOBJ.OTA_HotelStayInfoNotifRQ.StayInfos.StayInfo[3].HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.PersonName.Surname)
+                
 
                     // Copy last file on array to 02-Storage Directory
                 fs.copyFile(`./01-FTP/${files[files.length -1]}`, `./02-Storage/${files[files.length -1]}`, (err) => {
