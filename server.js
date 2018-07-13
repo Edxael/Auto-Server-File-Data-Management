@@ -140,15 +140,24 @@ const theFun1 = () => {
 
                 let newRecords = jsOBJ.OTA_HotelStayInfoNotifRQ.StayInfos.StayInfo
                 // console.log("The Array: ", newRecords)
-                console.log("This file has: ", newRecords.length, " Records.")
+                // console.log("This file has: ", newRecords.length, " Records.")
 
-
-                newRecords.map((x)=>{
+                if(Array.isArray(newRecords)){
+                    console.log("\nThis file has: ", newRecords.length, " Records.")
+                    newRecords.map((x)=>{
+                        console.log("\n----------------------------------")
+                        console.log("  Costumer Name: ", x.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.PersonName.GivenName)
+                        console.log("  Costumer Name: ", x.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.PersonName.Surname)
+                        console.log("----------------------------------")
+                    })
+                } else {
+                    console.log("\nThis file has: 1 Record.")
                     console.log("\n----------------------------------")
-                    console.log("  Costumer Name: ", x.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.PersonName.GivenName)
-                    console.log("  Costumer Name: ", x.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.PersonName.Surname)
+                    console.log("  Costumer Name: ", newRecords.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.PersonName.GivenName)
+                    console.log("  Costumer Name: ", newRecords.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.PersonName.Surname)
                     console.log("----------------------------------")
-                })
+                } // Note: this do not chekc for ZERO-Record make sure to add that feature latter. 
+                
 
                 // console.log("\n1st Costumer Name: ", jsOBJ.OTA_HotelStayInfoNotifRQ.StayInfos.StayInfo[3].HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.PersonName.GivenName)
                 // console.log("1st Costumer Last Name: ", jsOBJ.OTA_HotelStayInfoNotifRQ.StayInfos.StayInfo[3].HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.PersonName.Surname)
