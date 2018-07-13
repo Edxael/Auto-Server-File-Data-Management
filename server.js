@@ -137,19 +137,32 @@ const theFun1 = () => {
 
 
                 console.log("\nThe Hotel name and this night stays: ", jsOBJ.OTA_HotelStayInfoNotifRQ.StayInfos.HotelName)
-                console.log("\n1st Costumer Name: ", jsOBJ.OTA_HotelStayInfoNotifRQ.StayInfos.StayInfo[3].HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.PersonName.GivenName)
-                console.log("1st Costumer Last Name: ", jsOBJ.OTA_HotelStayInfoNotifRQ.StayInfos.StayInfo[3].HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.PersonName.Surname)
+
+                let newRecords = jsOBJ.OTA_HotelStayInfoNotifRQ.StayInfos.StayInfo
+                // console.log("The Array: ", newRecords)
+                console.log("This file has: ", newRecords.length, " Records.")
+
+
+                newRecords.map((x)=>{
+                    console.log("\n----------------------------------")
+                    console.log("  Costumer Name: ", x.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.PersonName.GivenName)
+                    console.log("  Costumer Name: ", x.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.PersonName.Surname)
+                    console.log("----------------------------------")
+                })
+
+                // console.log("\n1st Costumer Name: ", jsOBJ.OTA_HotelStayInfoNotifRQ.StayInfos.StayInfo[3].HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.PersonName.GivenName)
+                // console.log("1st Costumer Last Name: ", jsOBJ.OTA_HotelStayInfoNotifRQ.StayInfos.StayInfo[3].HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.PersonName.Surname)
                 
 
                     // Copy last file on array to 02-Storage Directory
                 fs.copyFile(`./01-FTP/${files[files.length -1]}`, `./02-Storage/${files[files.length -1]}`, (err) => {
                     if (err) throw err;
-                    console.log('\n File was copied to destination.txt');
+                    console.log('\n File was copied to Storage Directory.');
 
                         // Deleting last file on the Array
                     fs.unlink(`./01-FTP/${files[files.length -1]}`, (err) => {
                         if (err) throw err;
-                        console.log(' File was deleted \n ==============================');
+                        console.log(' File was deleted \n ==============================\n');
                     })
                 })
             })

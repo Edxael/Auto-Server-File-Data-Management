@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <OTA_HotelStayInfoNotifRQ Version="16.7" TimeStamp="2017-02-21T12:50:04-07:00" xmlns="http://www.opentravel.org/OTA/2003/05" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SequenceNmbr="789481250" TransactionIdentifier="2017-02-15">
+ 
+  <StayInfos HotelName="Crystal Inn Hotel &amp; Suites - WVC">
+   
+   <StayInfo SequenceNumber="1">
+    <RevenueCategories>
+     <RevenueCategory RevenueCategoryCode="9">
+      <SummaryAmount Amount="229.2"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="12">
+      <SummaryAmount Amount="30.03"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="17">
+      <SummaryAmount Amount="229.2"/>
+     </RevenueCategory>
+     <RevenueCategory RevenueCategoryCode="99">
+      <SummaryAmount Amount="229.2"/>
+     </RevenueCategory>
+    </RevenueCategories>
+    <HotelReservation WalkInIndicator="false" ResStatus="Modify">
+     <UniqueID Type="14" ID="496262" ID_Context="Folio"/>
+     <RoomStays>
+      <RoomStay MarketCode="WHOL" SourceOfBusiness="WHOL">
+       <RoomTypes>
+        <RoomType RoomTypeCode="K" NumberOfUnits="1"/>
+       </RoomTypes>
+       <RatePlans>
+        <RatePlan RatePlanCode="IH10"/>
+       </RatePlans>
+       <GuestCounts>
+        <GuestCount AgeQualifyingCode="10" Count="2"/>
+       </GuestCounts>
+       <TimeSpan Start="2017-02-11" End="2017-02-15" Duration="P4N"/>
+      </RoomStay>
+     </RoomStays>
+     <ResGuests>
+      <ResGuest VIP="false" ArrivalTime="01:37:40" DepartureTime="11:42:25">
+       <Profiles>
+        <ProfileInfo>
+         <UniqueID Type="1" ID="93018" ID_Context="Profile"/>
+         <Profile ProfileType="1" ShareAllMarketInd="Yes">
+          <Customer>
+           <PersonName>
+           <GivenName>Pedro</GivenName>
+           <Surname>Oquendo</Surname>
+           </PersonName>
+           <Telephone PhoneNumber="9783874686" PhoneUseType="5"/>
+           <Email EmailType="1">@</Email>
+           <Address UseType="2">
+           <CityName>North Andover</CityName>
+           <PostalCode>01845</PostalCode>
+           <StateProv>MA</StateProv>
+           </Address>
+          </Customer>
+          <CompanyInfo>
+           <CompanyName CompanyShortName="Hotwire Reservations" CodeContext="FEDID"/>
+           <AddressInfo>
+           </AddressInfo>
+          </CompanyInfo>
+         </Profile>
+        </ProfileInfo>
+       </Profiles>
+      </ResGuest>
+     </ResGuests>
+     <TPA_Extensions>
+      <ExtraFields>
+      <Extra2>Rd Altama</Extra2>
+      </ExtraFields>
+     </TPA_Extensions>
+    </HotelReservation>
+   </StayInfo>
+
+  </StayInfos>
+ </OTA_HotelStayInfoNotifRQ>
