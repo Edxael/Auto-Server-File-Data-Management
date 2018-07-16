@@ -133,18 +133,8 @@ const theFun1 = () => {
                 // Reading data on XML File
             fs.readFile( `./01-FTP/${files[files.length -1]}`, function(err, data) {
                 let jsonData = parser.toJson(data);  // <-- This load jsonData variable with JSON
-                
-                // console.log("\n JSON-Data----------------------------\n", jsonData, "\n ----------------------------")
-                // console.log("\n JSON-Data----------------------------\n")
-
-                // console.log(jsonData["OTA_HotelStayInfoNotifRQ"])
-
-                // console.log("\n -------------------------------------\n")
-
                 let jsOBJ = JSON.parse(jsonData)     // <-- This change from JSON -to-> JavaScript.  
                 let newRecords = jsOBJ.OTA_HotelStayInfoNotifRQ.StayInfos.StayInfo
-
-                // console.log("This file has: ", newRecords.length, " Records.")
 
                 if(Array.isArray(newRecords)){ // Note: this do not chekc for ZERO-Record make sure to add that feature latter.
                     console.log("\nThis file has: ", newRecords.length, " Records.")
@@ -188,15 +178,14 @@ const theFun1 = () => {
                     console.log("  Costumer Email: ", cEmail)
                     console.log("  Costumer City: ", cCity)
                     console.log("----------------------------------")
-                } 
-                
 
 
-
-
-
-
-
+                    console.log( '\n Creating new record on DataBase....')
+                    db.insert({ name: cFullName, country: cCity, email: cEmail }).into('Profiles').then((data) => {
+                        // res.send(data)
+                        console.log("Response from DB when creating new record: ", data)
+                    }).catch( (error) => { res.send(error) })
+                }
 
                     // Copy last file on array to 02-Storage Directory
                 fs.copyFile(`./01-FTP/${files[files.length -1]}`, `./02-Storage/${files[files.length -1]}`, (err) => {
@@ -233,49 +222,3 @@ setInterval(() => { theFun1() }, 2000)
     console.log("Server LOP: 5000 .....\n")
 })
 
-
-
-
-// const check1 = () => {
-//   let sourceFolder = './01-FTP/'
-
-//   fs.readdir(sourceFolder, (err, files) => {
-//     if(err){ 
-//         console.log("Error: ", err) 
-//     }else{
-//         console.log(`\n =================== \n Check: ${myCount}. Files in Folder:`)
-//         console.log(files)
-//         console.log("The name:", files[files.length -1])
-//     }
-
-//   })
-
-//   myCount += 1
-// }
-
-
-
-
-// ==================================================
-
-// reading data from file
-            // axios.get(`./01-FTP/${files[files.length -1]}`)
-            // axios.get(XMLData)
-            //     .then((response) => { return response.text() })
-            //     .then((response) => { parseString(response, (err, result) => { console.log( result ) })  })
-            //     .then((response) => { return convert.xml2js(response, {compact: true, spaces: 4}) })
-            //     .then((response) => { console.log("***************** \n The Data from File: ", response, "\n*******************") } )
-            //     .then(
-            //             // Copy last file on array to 02-Storage Directory
-            //         fs.copyFile(`./01-FTP/${files[files.length -1]}`, `./02-Storage/${files[files.length -1]}`, (err) => {
-            //             if (err) throw err;
-            //             console.log('file was copied to destination.txt');
-
-            //                 // Deleting last file on the Array
-            //             fs.unlink(`./01-FTP/${files[files.length -1]}`, (err) => {
-            //                 if (err) throw err;
-            //                 console.log('File was deleted \n ==============================');
-            //             })
-            //         })
-            //     )
-            //     .catch((err) => console.log(err) )
