@@ -149,16 +149,32 @@ const theFun1 = () => {
                 if(Array.isArray(newRecords)){ // Note: this do not chekc for ZERO-Record make sure to add that feature latter.
                     console.log("\nThis file has: ", newRecords.length, " Records.")
                     newRecords.map((x)=>{
+                        // let tepEmail = x.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.Email.$t
 
-                        if(!x.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.Email){ // Here when the customer do not provide Emaiil the object Email is not existen, so this will create it and load '$t' with undefined
+                        if(!x.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.Email){
                             x.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.Email = { $t: undefined }
                         }
-                        if(x.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.Email.$t == '@'){ // Here when the Email is ==- '@' change it to undefine
-                            x.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.Email.$t = undefined
-                        }
 
-                            // Loading the selected data to variables
+
+                        // console.log("\n==================================")
+                        // console.log(x.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.Email)
+                        // console.log("==================================")
+
+                        // let tepEmail = x.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.Email.$t
+
+
+
+
+
+
+
+
+                        // if(tepEmail === undefined || tepEmail === '@'){
+                        //     x.x.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.Email.$t = '**No Email**'
+                        // }
+
                         let cFullName = `${x.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.PersonName.GivenName} ${x.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.PersonName.Surname}`
+                        // let cEmail = x.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.CompanyInfo.Email
                         let cEmail = x.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.Email.$t
                         let cCity = x.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.Address.CityName
 
@@ -169,17 +185,8 @@ const theFun1 = () => {
                         console.log("----------------------------------")
                     })
                 } else {
-
-                    if(!newRecords.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.Email){ // Here when the customer do not provide Emaiil the object Email is not existen, so this will create it and load '$t' with undefined
-                        newRecords.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.Email = { $t: undefined }
-                    }
-                    if(newRecords.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.Email.$t == '@'){ // Here when the Email is ==- '@' change it to undefine
-                        newRecords.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.Email.$t = undefined
-                    }
-
-
                     let cFullName = `${newRecords.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.PersonName.GivenName} ${newRecords.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.PersonName.Surname}`
-                    let cEmail = newRecords.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.Email.$t
+                    let cEmail = newRecords.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.Email
                     let cCity = newRecords.HotelReservation.ResGuests.ResGuest.Profiles.ProfileInfo.Profile.Customer.Address.CityName
 
                     console.log("\nThis file has: 1 Record.")
