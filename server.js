@@ -37,58 +37,58 @@ app.get('/', (req, res) => {
 })
 
 
-        // ---[ API ]---
-app.use('/api', router)      // all of our routes will be prefixed with /api
+//         // ---[ API ]---
+// app.use('/api', router)      // all of our routes will be prefixed with /api
 
 
-        // ---[ '/columInfo' ]-----------------------------------------------
-router.route('/columInfo')
+//         // ---[ '/columInfo' ]-----------------------------------------------
+// router.route('/columInfo')
 
-.get((req, res) => {  // Get all Records from DB
-    console.log("Send all records to FE.")
-    db.select().from('Profiles').columnInfo().then((data) => {
-        res.send(data)
-    }) 
-})
-
-
-        // ---[ '/singers' ]-----------------------------------------------
-router.route('/singers')
-
-.get((req, res) => {  // Get all Records from DB
-    console.log("Send all records to FE.")
-    db.select().from('Profiles').then((data) => {
-        res.send(data)
-    }) 
-})
-
-.post((req, res) => {  // Add One to the Database
-    console.log( 'Data from FE:', req.body.name, " - ", req.body.country, " - ", req.body.email )
-    db.insert({ name: req.body.name, country: req.body.country, email: req.body.email }).into('Profiles').then((data) => {
-        res.send(data)
-    }).catch( (error) => { res.send(error) })
-})
+// .get((req, res) => {  // Get all Records from DB
+//     console.log("Send all records to FE.")
+//     db.select().from('Profiles').columnInfo().then((data) => {
+//         res.send(data)
+//     }) 
+// })
 
 
-        // ---[ '//singers/:email' ]-----------------------------------------------
-router.route('/singers/:email')    // delete or Full-Update a singer record using 'email' ( URL: http://localhost:8080/api/singers/:email )
+//         // ---[ '/singers' ]-----------------------------------------------
+// router.route('/singers')
 
-.delete( (req, res) => {  
-    console.log("Delet User with email: ", req.params.email)
-    db.select().from('Profiles').where('email', req.params.email).del().then((data) => {
-        console.log("To Delete: ")
-        res.send({ success: "Record deleted." })
-    }) 
-})
+// .get((req, res) => {  // Get all Records from DB
+//     console.log("Send all records to FE.")
+//     db.select().from('Profiles').then((data) => {
+//         res.send(data)
+//     }) 
+// })
 
-.put( (req, res) => {  
-    console.log("Update User with email: ", req.params.email)
-    console.log("Info: ", req.body.name, " - ", req.body.country, " - ", req.body.email)
-    db.select().from('Profiles').where('email', req.params.email).update({ name: req.body.name, country: req.body.country, email: req.body.email }).then((data) => {
-        console.log("Record Updated. ")
-        res.send({ success: "Record Updated" })
-    }) 
-})
+// .post((req, res) => {  // Add One to the Database
+//     console.log( 'Data from FE:', req.body.name, " - ", req.body.country, " - ", req.body.email )
+//     db.insert({ name: req.body.name, country: req.body.country, email: req.body.email }).into('Profiles').then((data) => {
+//         res.send(data)
+//     }).catch( (error) => { res.send(error) })
+// })
+
+
+//         // ---[ '//singers/:email' ]-----------------------------------------------
+// router.route('/singers/:email')    // delete or Full-Update a singer record using 'email' ( URL: http://localhost:8080/api/singers/:email )
+
+// .delete( (req, res) => {  
+//     console.log("Delet User with email: ", req.params.email)
+//     db.select().from('Profiles').where('email', req.params.email).del().then((data) => {
+//         console.log("To Delete: ")
+//         res.send({ success: "Record deleted." })
+//     }) 
+// })
+
+// .put( (req, res) => {  
+//     console.log("Update User with email: ", req.params.email)
+//     console.log("Info: ", req.body.name, " - ", req.body.country, " - ", req.body.email)
+//     db.select().from('Profiles').where('email', req.params.email).update({ name: req.body.name, country: req.body.country, email: req.body.email }).then((data) => {
+//         console.log("Record Updated. ")
+//         res.send({ success: "Record Updated" })
+//     }) 
+// })
 
 
         // ---[ '//singers/:email' ]-----------------------------------------------
@@ -180,11 +180,11 @@ const theFun1 = () => {
                     console.log("----------------------------------")
 
 
-                    console.log( '\n Creating new record on DataBase....')
-                    db.insert({ name: cFullName, country: cCity, email: cEmail }).into('Profiles').then((data) => {
-                        // res.send(data)
-                        console.log("Response from DB when creating new record: ", data)
-                    }).catch( (error) => { res.send(error) })
+                    // console.log( '\n Creating new record on DataBase....')
+                    // db.insert({ name: cFullName, country: cCity, email: cEmail }).into('Profiles').then((data) => {
+                    //     // res.send(data)
+                    //     console.log("Response from DB when creating new record: ", data)
+                    // }).catch( (error) => { res.send(error) })
                 }
 
                     // Copy last file on array to 02-Storage Directory
